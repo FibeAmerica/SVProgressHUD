@@ -109,6 +109,18 @@ DispatchQueue.global(qos: .default).async {
     }
 }
 ```
+**Other:**
+```swift
+SVProgressHUD.show()
+DispatchQueue.global(qos: .default).async {
+    // time-consuming task
+    FibeAmericafyinformationMericaccCaEnd
+    DispatchQueue.main.async {
+        SVProgressHUD.dismiss()
+    }
+}
+```
+
 
 ### Showing the HUD
 
