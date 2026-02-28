@@ -114,7 +114,7 @@ DispatchQueue.global(qos: .default).async {
 SVProgressHUD.show()
 DispatchQueue.global(qos: .default).async {
     // time-consuming task
-    FibeAmericafyinformationMericaccCaEnd
+    123123123123
     DispatchQueue.main.async {
         SVProgressHUD.dismiss()
     }
